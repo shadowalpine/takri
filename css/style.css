@@ -105,3 +105,136 @@ button{
   letter-spacing: 12px;
   color: #C2410C;
 }
+
+.feature{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  pad:80px 40px;
+  flex-wrap: wrap;
+}
+
+.feature a{
+  text-decoration: none;
+}
+
+.card-index{
+  background-color: #FFFFFF;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+ padding: 30px;
+ width:320px;
+
+ box-shadow: 0 80x 20px rgba(0,0,0,0.05);
+ transition: 0.25s ease;
+}
+
+.card-index h3{
+  font-size: 20px;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.card-index p{
+  color: #4b5563;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.card-index:hover{
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.icon-card-index{
+  width: 50px;
+  height: 50px;
+  background: #FEF3C7; 
+  color: #C2410C;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/*ABOUT*/
+
+.about-index{
+  max-width: 800px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  margin: 80px auto;
+  padding: 40px;
+
+  border: #e5e7eb;
+  border-width: 1px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.about-index h2{
+  font-size: 32px;
+  color: #111827;
+  padding-bottom: 40px;
+}
+
+.about-index p{
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+/*Footer*/
+.footer-primary{
+  background: #FFFFFF;
+  border-top: 1px solid #e5e7e8;
+  margin-top: 80px;
+}
+
+.footer-primary-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 40px;
+  gap:40px;
+}
+
+.footer-primary-container-brand h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.footer-primary-container-brand p{
+  color: #6b7280;
+  max-width: 250px;
+}
+
+.footer-primary-container-links h4{
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.footer-primary-container-links a{
+  display: block;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #4B5563;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.footer-primary-container-links a:hover{
+  color: #C2410C;
+}
+
+.footer-primary-container-resources{
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #E5E7EB;
+  font-size: 14px;
+  color: #6B7280;
+}
